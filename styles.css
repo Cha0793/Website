@@ -74,7 +74,7 @@ nav a:hover {
 .bottom-navigation {
     display: flex;
     justify-content: center;
-    padding: 1rem;
+    padding: 16px;
     background-color: #f2f2f2;
     border-top: 1px solid #d3d3d3;
 }
