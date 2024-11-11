@@ -108,6 +108,7 @@ nav a:hover {
 }
     
 .hero h2 {
+    font-family: Georgia, serif;
     font-size: 36px;
     font-weight: bold;
     margin-bottom: 10px;
@@ -250,7 +251,7 @@ nav a:hover {
     color: #3E2723;
     text-align: center;
     padding: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, serif;
     font-size: 25px;
 }
 
