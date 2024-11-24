@@ -487,6 +487,7 @@ form input[type="button"]:hover {
     line-height: 1.5;
     word-wrap: break-word;
     white-space: pre-wrap;
+    text-align: justify;
 }
 
 /* About Page Styles */
