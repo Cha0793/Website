@@ -19,18 +19,38 @@
         </nav>
     </header>
 
-    <form action="#" method="POST">
-        <label for="name">Your Name:</label>
-        <input type="text" id="name" name="name" required>
-
-        <label for="email">Your Email</label>
-        <input type="email" id="email" name="email" required>
-
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="4" required></textarea>
-
-        <button type="submit">Send</button>
+    <form>
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    
+    <label for="email">Your Email:</label>
+    <input type="text" id="email" name="email" placeholder="Enter your email" required>
+    
+    <label for="message">Message:</label>
+    <input type="text" id="message" name="message" placeholder="Enter your message" required>
+    
+    <input type="button" value="Send" onclick="displayResult()">
     </form>
+    
+    <div id="result" style="display: none;">
+        <h2>Message Sent</h2>
+        <p id="nameDisplay"></p>
+        <p id="emailDisplay"></p>
+        <p id="messageDisplay"></p>
+    </div>
+    
+    <script>
+        function displayResult() {
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+
+            document.getElementById("nameDisplay").innerText = "Name: " + name;
+            document.getElementById("emailDisplay").innerText = "Email: " + email;
+            document.getElementById("messageDisplay").innerText = "Message: " + message;
+            document.getElementById("result").style.display = "block";
+        }
+    </script>
 
     <footer>
         <div class="footer-section">
