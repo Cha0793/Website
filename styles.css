@@ -83,13 +83,13 @@ nav a:hover {
 .bottom-navigation a {
     margin: 0 1rem;
     text-decoration: none;
-    color: #D4A373;
+    color: #600e17;
     font-weight: bold;
     transition: color 0.3s;
 }
 
 .bottom-navigation a:hover {
-    color: #600e17;
+    color: #D4A373;
 }
 
 /* Hero Section Styles */
