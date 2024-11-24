@@ -71,6 +71,41 @@ nav a:hover {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
+nav ul li ul {
+    display: none; 
+    position: absolute; 
+    top: 100%; 
+    left: 0; 
+    background-color: rgb(129, 21, 33); 
+    padding: 10px 0; 
+    border-radius: 5px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    z-index: 1000; 
+}
+
+nav ul li:hover ul {
+    display: block; 
+}
+
+nav ul li ul li {
+    width: 200px; 
+}
+
+nav ul li ul li a {
+    padding: 10px 15px; 
+    color: #fff; 
+    text-decoration: none; 
+    display: block; 
+}
+
+nav ul li ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+nav ul li ul {
+    transition: all 0.3s ease; 
+}
+
 .bottom-navigation {
     display: flex;
     justify-content: center;
