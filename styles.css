@@ -51,7 +51,8 @@ header {
 nav ul {
     list-style: none;
     display: flex;
-    align-items: center;
+    font-size: 16px;
+    text-align: justify;
 }
 
 nav ul li {
